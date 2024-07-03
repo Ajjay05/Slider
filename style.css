@@ -31,8 +31,29 @@
 .slide .image {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: fill;
 }
+
+/* .slide::before{
+  content:""!important;
+} */
+
+/* .swiper-button-next{
+background-color: rgba(0, 0, 0, .75)!important;
+}
+.swiper-button-next:hover{
+  background-color: #4185f4!important;
+}
+.swiper-button-prev{
+  background-color: rgba(0, 0, 0, .75)!important;
+}
+.swiper-button-prev:hover{
+  background-color: #4185f4!important;
+}
+.slide .video{
+  height: 100%;
+  width: 100%;
+} */
 .slide .image-data {
   position: absolute;
   top: 50%;
